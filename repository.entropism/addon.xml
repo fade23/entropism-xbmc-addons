@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.entropism"
+        name="Entropism Add-ons"
+        version="1.0.0"
+        provider-name="Ross Glass">
+    <extension point="xbmc.addon.repository"
+        name="Entropism Repository">
+        <info>https://github.com/fade23/entropism-xbmc-addons/raw/master/addons.xml</info>
+        <checksum>https://github.com/fade23/entropism-xbmc-addons/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/fade23/entropism-xbmc-addons/raw/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Entropism Addons for XBMC</summary>
+        <description>Addons for XBMC</description>
+        <disclaimer>-</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
