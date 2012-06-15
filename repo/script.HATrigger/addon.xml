@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.HATrigger"
+    name="HA Trigger"
+    version="0.1.0"
+    provider-name="Entropism">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.service" name="HATrigger.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata" name="HATrigger.metadata">
+        <summary lang="en">Trigger HA</summary>
+        <description lang="en">Trigger home automation events on player events
+        </description>
+        <platform>all</platform>
+        <summary lang="en">Trigger home automation events on player events
+        </summary>
+    </extension>	
+</addon>
