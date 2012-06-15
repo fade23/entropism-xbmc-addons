@@ -8,7 +8,7 @@
         name="Entropism Repository">
         <info>https://github.com/fade23/entropism-xbmc-addons/raw/master/addons.xml</info>
         <checksum>https://github.com/fade23/entropism-xbmc-addons/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/fade23/entropism-xbmc-addons/raw/master/repo/</datadir>
+        <datadir zip="true">https://github.com/fade23/entropism-xbmc-addons/raw/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Entropism Addons for XBMC</summary>
